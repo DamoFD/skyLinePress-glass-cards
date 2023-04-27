@@ -1,0 +1,40 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/skylinepress-glass-cards",
+	"version": "0.1.0",
+	"title": "Skylinepress Glass Cards",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"img1": {
+			"type": "string"
+		},
+		"heading1": {
+			"type": "string",
+			"default": "Heading 1"
+		},
+		"img2": {
+			"type": "string"
+		},
+		"heading2": {
+			"type": "string",
+			"default": "Heading 2"
+		},
+		"img3": {
+			"type": "string"
+		},
+		"heading3": {
+			"type": "string",
+			"default": "Heading 3"
+		}
+	},
+	"textdomain": "skylinepress-glass-cards",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
